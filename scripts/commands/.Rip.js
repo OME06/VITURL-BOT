@@ -2,6 +2,7 @@ module.exports.config = {
 	name: "rip",
 	version: "1.0.0",
 	Permssion: 0,
+	prefix: true,
 	credits: "SaikiDesu",
 	description: "rip meme image",
 	Category: "edit-img",
