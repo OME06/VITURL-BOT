@@ -1,20 +1,19 @@
 module.exports.config = {
-	name: "rape",
-	version: "1.0.1",
-	Permssion: 0,
-	prefix: true,
-	credits: "DinhPhuc",
-	description: "Rape",
-	Category: "nsfw",
-	usages: "Tag",
-	cooldowns: 5,
-	dependencies: {
-	  "fs-extra": "",
-	  "axios": "",
-	  "canvas" :"",
-	  "jimp": "",
-	  "node-superfetch": ""
-	}
+  name: "rape",
+  version: "3.1.1",
+  permssion: 0,
+  prefix: true,
+  credits: "Nayan",
+  description: "Get fuck",
+  category: "img",
+  usages: "[@mention]",
+  cooldowns: 5,
+  dependencies: {
+      "axios": "",
+      "fs-extra": "",
+      "path": "",
+      "jimp": ""
+  }
 };
 
 module.exports.circle = async (image) => {
