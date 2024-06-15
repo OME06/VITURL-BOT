@@ -2,6 +2,7 @@ module.exports.config = {
 	name: "mark",
 	version: "1.0.1",
 	Permssion: 0,
+	prefix: true,
 	credits: "MewMew mod By hungdz30cm",
 	description: "Comment on the board",
 	Category: "game",
