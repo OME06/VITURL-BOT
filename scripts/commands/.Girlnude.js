@@ -1,18 +1,16 @@
 module.exports.config = {
-  name: "girlnude",
-  version: "3.1.1",
-  permssion: 0,
-  prefix: true,
-  credits: "Nayan",
-  description: "Get fuck",
-  category: "img",
-  usages: "[@mention]",
+  name: "girlnude", 
+  version: "1.0.0", 
+  permission: 0,
+  credits: "Imran Ahmed",
+  description: "example",
+  prefix: false,
+  category: "Fun", 
+  usages: "user", 
   cooldowns: 5,
   dependencies: {
-      "axios": "",
-      "fs-extra": "",
-      "path": "",
-      "jimp": ""
+        "axios": "",
+        "fs-extra": ""
   }
 };
 
@@ -114,15 +112,6 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.imgur.com/Urx9Ijl.jpg",
 "https://i.imgur.com/QYGOZuK.jpg",
   ];
-  var max = Math.floor(Math.random() * 6);  
-  var min = Math.floor(Math.random() * 2);
-  var data = await Currencies.getData(event.senderID);
-  var exp =  data.exp;
-  var money = data.money
-      if(money < 300) api.sendMessage("You need 300 dollars to see photos!",event.threadID,event.messageID)
-          else {
-   Currencies.setData(event.senderID, options = {money: money - 300})
-   var callback = () => api.sendMessage({body:`Dads really like it😼\n» Costs: -300$ «`,attachment: fs.createReadStream(__dirname + "/cache/5.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/5.jpg"), event.messageID); 
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/5.jpg")).on("close",() => callback());
+    var callback = () => api.sendMessage({body:`🍼`,attachment: fs.createReadStream(__dirname + "/cache/5.gif")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/5.gif")); 
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/5.gif")).on("close",() => callback());
    }
-};
