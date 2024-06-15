@@ -1,18 +1,19 @@
 module.exports.config = {
-	name: "mark",
-	version: "1.0.1",
-	Permssion: 0,
-	prefix: true,
-	credits: "MewMew mod By hungdz30cm",
-	description: "Comment on the board",
-	Category: "game",
-	usages: "[text]",
-	cooldowns: 5,
-	dependencies: {
-		"canvas":"",
-		 "axios":"",
-		 "fs-extra":""
-	}
+  name: "mark",
+  version: "3.1.1",
+  permssion: 0,
+  prefix: true,
+  credits: "Nayan",
+  description: "Get",
+  category: "img",
+  usages: "[@mention]",
+  cooldowns: 5,
+  dependencies: {
+      "axios": "",
+      "fs-extra": "",
+      "path": "",
+      "jimp": ""
+  }
 };
 
 module.exports.wrapText = (ctx, text, maxWidth) => {
