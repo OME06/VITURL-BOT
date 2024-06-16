@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "fingering",
   version: "3.1.1",
-  permssion: 0,
+  permssion: 2,
   prefix: true,
   credits: "Nayan",
   description: "Get fuck",
