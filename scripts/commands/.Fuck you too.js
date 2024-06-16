@@ -3,7 +3,7 @@ module.exports.config = {
 	name: "fyoutoo",
     version: "1.0.1",
 	permssion: 0,
-	prefix: true,
+	prefix: false,
 	credits: "VanHung - Fixed by LTD", 
 	description: "hihihihi",
 	Category: "no prefix",
