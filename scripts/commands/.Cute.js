@@ -1,20 +1,20 @@
 module.exports.config = {
   name: "cute",
-  version: "1.0.0",
+  version: "3.1.1",
   permssion: 0,
   prefix: true,
-  credits: "mahabub",
-  description: "Projec M4a.",
-  Category: "Random-IMG",
-  usages: "panclose",
-  cooldowns: 3,
+  credits: "Nayan",
+  description: "Get fuck",
+  category: "img",
+  usages: "[@mention]",
+  cooldowns: 5,
   dependencies: {
-    "request":"",
-    "fs-extra":"",
-    "axios":""
+      "axios": "",
+      "fs-extra": "",
+      "path": "",
+      "jimp": ""
   }
 };
-
 module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currencies}) => {
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
