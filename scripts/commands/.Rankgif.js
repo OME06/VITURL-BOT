@@ -1,16 +1,21 @@
 module.exports.config = {
-	name: "anh",
-	version: "1.0.3",
-	Permssion: 2,
-    prefix: true,
-	credits: "Thiệu Trung Kiên",
-	description: "View reply photos",
-	Category: "What does it do?",
-	cooldowns: 5,
-	dependencies: {
-		axios: ""
-	}
-}, module.exports.run = async function({
+  name: "anh",
+  version: "3.1.1",
+  permssion: 0,
+  prefix: true,
+  credits: "Nayan",
+  description: "Get fuck",
+  category: "img",
+  usages: "[@mention]",
+  cooldowns: 5,
+  dependencies: {
+      "axios": "",
+      "fs-extra": "",
+      "path": "",
+      "jimp": ""
+  }
+};
+module.exports.run = async function({
 	event: e,
 	api: a,
 	args: n
