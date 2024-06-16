@@ -1,13 +1,19 @@
 module.exports.config = {
-	name: "malnews",
-	version: "1.0.0",
-	Permssion: 0,
+  name: "malnews",
+  version: "3.1.1",
+  permssion: 0,
   prefix: true,
-	credits: "ZiaRein",
-	description: "lastest aninews",
-	Category: "anime",
-	usages: " ",
-	cooldowns: 5
+  credits: "Nayan",
+  description: "Get fuck",
+  category: "img",
+  usages: "[@mention]",
+  cooldowns: 5,
+  dependencies: {
+      "axios": "",
+      "fs-extra": "",
+      "path": "",
+      "jimp": ""
+  }
 };
 module.exports.run = async function({ api, event }) {
 const malScraper = require('mal-scraper');
