@@ -2,15 +2,19 @@ const request = require("request");
 const fs = require("fs")
 const axios = require("axios")
 module.exports.config = {
-  name: "bulon",
-  version: "1.0.0",
-  Permssion: 0,
+  name: "bulon", 
+  version: "1.0.0", 
+  permission: 2,
+  credits: "Nayan",
+  description: "example",
   prefix: true,
-  credits: "Kaneki",
-  description: "Bú lồn người bạn tag",
-  Category: "Lệnh 18+",
-  usages: "[tag]",
+  category: "Fun", 
+  usages: "user", 
   cooldowns: 5,
+  dependencies: {
+        "axios": "",
+        "fs-extra": ""
+  }
 };
 
 module.exports.run = async({ api, event, Threads, global }) => {
