@@ -1,5 +1,5 @@
 module.exports.config = {
-    name: "animepp",
+    name: "bestanime",
     version: "1.0.0",
     Permssion: 0,
     prefix: true,
