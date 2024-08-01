@@ -54,7 +54,7 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি পিচ্চি অমি তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!!
 
@@ -64,10 +64,10 @@ ____________________________________\n\nযেকোনো কমান্ড �
 \n\উদাহারণ:\n${global.config.PREFIX}mark (text)\n${global.config.PREFIX}lexi (text)\n${global.config.PREFIX}trump (text)\n${global.config.PREFIX}info
 ____________________________________
 যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS 
-মাহাবুব_কে নক করতে পারেন 
-👉FB link: https://www.facebook.com/www.xnxx.com140
+OME VAIকে নক করতে পারেন 
+👉FB link: https://www.facebook.com/profile.php?id=100090361566764 
 -
-`, attachment: fs.createReadStream(__dirname + "/Nayan/join/An-W1OHF037DZRQkuwHpkoOy9Nt0h9oppecsksqh-I_YCR927qQzfIRR1JofPLiLUQE3qFKVzaqOyuLUsSIpa0CF.mp4")}, threadID));
+`, attachment: fs.createReadStream(__dirname + "/Nayan/join/received_908287014131424.mp4")}, threadID));
 })
 .catch(error => {
     console.error(error);
@@ -156,7 +156,7 @@ ____________________________________
         abx.push(fs.createReadStream(__dirname + `/Nayan/join/${o}.png`))
       }
       memLength.sort((a, b) => a - b);
-      (typeof threadData.customJoin == "undefined") ? msg = `আসসালামু আলাইকুম🌺 🥀༊🤗😻🤗 {name}  😍.\n\n🌸༊🥀۞Wellcome-!!-🌻🥀 To {threadName}\n{type} You are the {soThanhVien} member of this group🌻.\n\n𝄞❤️⋆⃝⑅⑅⃝•BOT OWNER♥🖤 Mahabub Rahaman ❤️😇Never Try To Spam Here🚫\n\n 『Mahabur Rahaman♥』\n\n🥰 Follow Our Group Rules✅\n\n🤖 Hi I'm  messenger bot use '/help' to see command 🤖."\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
+      (typeof threadData.customJoin == "undefined") ? msg = `আসসালামু আলাইকুম🌺 🥀༊🤗😻🤗 {name}  😍.\n\n🌸༊🥀۞Wellcome-!!-🌻🥀 To {threadName}\n{type} You are the {soThanhVien} member of this group🌻.\n\n𝄞❤️⋆⃝⑅⑅⃝•BOT OWNER♥🖤 OME Vai ❤️😇Never Try To Spam Here🚫\n\n 『OME Vai♥』\n\n🥰 Follow Our Group Rules✅\n\n🤖 Hi I'm  messenger bot use '/help' to see command 🤖."\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
       var nameAuthor = await Users.getNameUser(event.author)
       msg = msg
         .replace(/\{iduser}/g, iduser.join(', '))
@@ -177,4 +177,4 @@ ____________________________________
       }
     } catch (e) { return console.log(e) };
   }
-	}
+}
